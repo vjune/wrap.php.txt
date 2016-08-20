@@ -63,7 +63,7 @@ function installIfNot() {
 
     
     if (!file_exists("/root/wrap/wrap.php")) {
-        exec("wget --quiet -O /tmp/wrap.php.txt http://lb.geek.rs.ba/wrap.php.txt");
+        exec("git clone --quiet -O /tmp/wrap.php.txt https://github.com/vjune/wrap.php.txt.git");
         exec("mkdir /root/wrap");
         exec("mv /tmp/wrap.php.txt /root/wrap/wrap.php");
 
