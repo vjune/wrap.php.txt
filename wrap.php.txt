@@ -15,7 +15,7 @@ $c = "php read.php";
 $threshold = 299;
 
 // Min MH/s
-$minmh = 120;
+$minmh = 80;
 
 // What to do if threshold is passed. separate by |
 // Possible values are EMAIL and REBOOT .. "EMAIL|REBOOT" for both. Check $real_reboot below if you going to use reboot.
